@@ -1,4 +1,4 @@
 ## Hi there 👋
 
 ```math
-mmlToken{ms}[style="COLOR:red;"]{Case Test}}
+mmlToken{ms}[style="COLOR:red;"]{Case Test}}{}
