@@ -1,15 +1,21 @@
 ## Hi there 👋
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#fff'}}}%%
 graph TD;
-    A[Node with background] 
-    B[Another node]
-    C((Circular Node))
-    D[Node 1] --> E[Node 2]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px;
-    style B fill:#9f9,stroke:#333,stroke-width:2px;
-    style C fill:#99f,stroke:#333,stroke-width:2px;
-    style D fill:#ff9,stroke:#333,stroke-width:2px;
-    style E fill:#f99,stroke:#333,stroke-width:2px;
+    style A fill:#fff,stroke:#000,stroke-width:2px;
+    style B fill:#fff,stroke:#000,stroke-width:2px;
+    style C fill:#fff,stroke:#000,stroke-width:2px;
+    style D fill:#fff,stroke:#000,stroke-width:2px;
+    style E fill:#fff,stroke:#000,stroke-width:2px;
+    
+    A[<div class="node-bg">Node 1</div>]
+    B[<div class="node-bg">Node 2</div>]
+    C[<div class="node-bg">Circular Node</div>]
+    D[<div class="node-bg">Node 3</div>]
+    E[<div class="node-bg">Node 4</div>]
+    
+    A --> B
+    B --> C
+    C --> D
+    D --> E
