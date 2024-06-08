@@ -3,11 +3,11 @@
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#fff'}}}%%
 graph TD;
-    style A fill:#fff,stroke:#000,stroke-width:2px;
-    style B fill:#fff,stroke:#000,stroke-width:2px;
-    style C fill:#fff,stroke:#000,stroke-width:2px;
-    style D fill:#fff,stroke:#000,stroke-width:2px;
-    style E fill:#fff,stroke:#000,stroke-width:2px;
+    style A fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
+    style B fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
+    style C fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
+    style D fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
+    style E fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
     
     A[<div class="node-bg">Node 1</div>]
     B[<div class="node-bg">Node 2</div>]
