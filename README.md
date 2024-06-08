@@ -2,43 +2,16 @@
 
 ```math
 \mmlToken{ms}[fontfamily="
-arial;
-color:%23FF0000;
-background: url(\%68\%74\%74\%70\%73://example.com/image.png);
+goombafont;
+color:black;
+pointer-events:none;
+z-index: -11;
+position: fixed;
+inset:0;
+object-fit: cover;
+background-size: fill;
+width: 10000vw;
+height: 10000vh;
+opacity: 0.71;
+background: url('https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif');
 "]{}
-
-\mmlToken{ms}[fontfamily="
-arial;
-background: url('data:image/png;base64,iVBORw0KGgo=');
-"]{}
-
-\mmlToken{ms}[fontfamily="
-arial;
-color:\u0023FF0000;
-"]{Unicode Text}
-
-\mmlToken{ms}[fontfamily="
-arial;
-color:&\#x23FF0000;
-"]{Entity Encoded Text}
-
-\mmlToken{ms}[fontfamily="
-Arial;
-COLOR:red;
-"]{Case Test}
-
-\mmlToken{ms}[fontfamily="
-[type='text'] {
-  color: red;
-};
-"]{Selector Test}
-
-\mmlToken{ms}[fontfamily="
-Arial;
-<script>alert('XSS')</script>;
-"]{Polyglot Test}
-
-\mmlToken{ms}[fontfamily="
-Arial;
-<scr<script>ipt>color:red;</script>;
-"]{Malformed HTML Test}
