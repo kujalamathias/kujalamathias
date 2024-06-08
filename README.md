@@ -1,6 +1,8 @@
 ## Hi there 👋
 
 ```math
+\math{<mstyle background="url('[https://example.com/image.jpg](https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif)')" position="fixed" width="100vw" height="100vh"></mstyle>}
+
 \mmlToken{ms}[fontfamily="
 goombafont;
 color:black;
