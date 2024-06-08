@@ -1,20 +1,14 @@
 ## Hi there 👋
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#fff'}}}%%
+%%{init: {'theme': 'base', 'themeCSS': '.node-bg { background-image: url("https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif"); background-size: cover; }'}}%%
 graph TD;
-    style A fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
-    style B fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
-    style C fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
-    style D fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
-    style E fill:#fff,stroke:#000,stroke-width:2px,background-image:url(https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif);
-    
-    A[<div class="node-bg">Node 1</div>]
-    B[<div class="node-bg">Node 2</div>]
-    C[<div class="node-bg">Circular Node</div>]
-    D[<div class="node-bg">Node 3</div>]
-    E[<div class="node-bg">Node 4</div>]
-    
+    A[Node 1]:::node-bg
+    B[Node 2]:::node-bg
+    C[Node 3]:::node-bg
+    D[Node 4]:::node-bg
+    E[Node 5]:::node-bg
+
     A --> B
     B --> C
     C --> D
