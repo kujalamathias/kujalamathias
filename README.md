@@ -1,19 +1,15 @@
 ## Hi there 👋
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff'}, 'flowchart': {'htmlLabels': false}}}%%
-<style>
-  .node-background {
-    background-image: url("https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif");
-    background-size: cover;
-  }
-</style>
-
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff'}}}%%
 graph TD;
-    A[Node with background]:::node-background
-    B[Another node]:::node-background
-    C((Circular Node)):::node-background
+    A[Node with background] 
+    B[Another node]
+    C((Circular Node))
     D[Node 1] --> E[Node 2]
 
-    class D node-background;
-    class E node-background;
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#9f9,stroke:#333,stroke-width:2px;
+    style C fill:#99f,stroke:#333,stroke-width:2px;
+    style D fill:#ff9,stroke:#333,stroke-width:2px;
+    style E fill:#f99,stroke:#333,stroke-width:2px;
