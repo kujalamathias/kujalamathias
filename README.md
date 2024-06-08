@@ -1,9 +1,11 @@
 ## Hi there 👋
 
 ```mermaid
-%%{init: {"securityLevel": "loose", "dompurifyConfig": {"ALLOWED_TAGS": ["script"], "KEEP_CONTENT": true, "ADD_ATTR": ["kitty-litter"]}}}%%
-graph LR
-  A["<img src='https://raw.githubusercontent.com/kujalamathias/kujalamathias/main/image.gif'>"] -->|"$$\sqrt{x+3}$$"| B("$$\frac{1}{2}$$")
-  A -->|"$$\overbrace{a+b+c}^{\text{note}}$$"| C("$$\pi r^2$$")
-  B --> D("$$x = \begin{cases} a & \text{if } b \\ c & \text{if } d \end{cases}$$")
-  C --> E("$$x(t)=c_1\begin{bmatrix}-\cos{t}+\sin{t}\\ 2\cos{t} \end{bmatrix}e^{2t}$$")
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff'}}}%%
+graph TD;
+    A[Node with background] 
+    style A fill:url(#backgroundImage)
+    classDef default fill:#fff,stroke:#333,stroke-width:2px;
+
+    class A backgroundImageClass;
+    classDef backgroundImageClass fill:url(#backgroundImage),stroke:#333,stroke-width:2px;
