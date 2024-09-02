@@ -3,7 +3,7 @@
 ```mermaid
 graph LR
 A(NiObject) --> B(NiAccumulator);
-B --> C(<img><<h1/onmouseover=a>asdf</img>x>);
+B --> C(<img><img<h1/onmouseover=a>asdf</img>x>);
 C --> D(NiAlphaAccumulator);
 A --> E(NiExtraData);
 E --> F(BrickNiExtraData);
